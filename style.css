@@ -3,7 +3,7 @@ body{
 }
 
 body.dark-theme {
-  background-color: rgb(130, 61, 115);
+  background-color: #aeb6f9;
   color: white;
 }
 .topimg {
@@ -22,12 +22,12 @@ footer{
 }
 
 body.dark-theme footer{
-  background-color: rgb(75, 12, 52);
+  background-color: #b7c2ff;
   color: white;
 }
 
 body.dark-theme .breeds{
-  background-color: rgb(75, 12, 52);
+  background-color: #b7c2ff;
   color: white;
 }
 
