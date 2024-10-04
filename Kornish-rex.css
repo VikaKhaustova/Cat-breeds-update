@@ -1,0 +1,39 @@
+body {
+    background-color: #EAECFF;
+}
+
+.arrow_abissian {
+    width: 55px; 
+    height: 55px;
+    margin-left: 70px;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    font-size: 46px;
+    margin-bottom: 35px;
+    margin-top: -53px;
+}
+
+.Kornish-rex_text {
+    margin-left: -105px;
+    font-size: 42px;
+}
+
+.Kornish-rex_all img {
+    height: 420px;
+    width: 380px;
+    margin-right: -20px;
+    margin-top: -75px;
+}
+
+.Kornish-rex_all {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: #EAECFF;
+}

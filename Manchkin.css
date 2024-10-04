@@ -1,0 +1,38 @@
+body {
+    background-color: #EAECFF;
+}
+
+.arrow_abissian {
+    width: 55px; 
+    height: 55px;
+    margin-left: 70px;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    font-size: 46px;
+    margin-bottom: 35px;
+    margin-top: -53px;
+}
+
+.Manchkin_text {
+    margin-left: -41px;
+    font-size: 42px;
+}
+
+.Manchkin_all img {
+    height: 385px;
+    width: 405px;
+    margin-top: -50px;
+}
+
+.Manchkin_all {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: #EAECFF;
+}

@@ -1,0 +1,39 @@
+body {
+    background-color: #EAECFF;
+}
+
+.arrow_abissian {
+    width: 55px; 
+    height: 55px;
+    margin-left: 70px;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    font-size: 46px;
+    margin-bottom: 35px;
+    margin-top: -53px;
+}
+
+.Sphynx_text {
+    margin-left: -75px;
+    font-size: 42px;
+}
+
+.Sphynx_all img {
+    height: 340px;
+    width: 505px;
+    margin-right: -48px;
+    margin-top: -12px;
+}
+
+.Sphynx_all {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: #EAECFF;
+}
