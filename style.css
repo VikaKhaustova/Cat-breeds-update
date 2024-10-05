@@ -75,27 +75,42 @@ padding: 20px;
 }
 
 @media (max-width: 720px) {
-  .row-one, .row-two, .row-three, .row-four{
-    flex-wrap: wrap;
-    margin-top: 0;
-  }
-  footer{
-    flex-wrap: wrap;
-  }
-  .card{
-    margin-top: 10px;
-  }
-  
-  .row-five{
-    display: flex;
-    justify-content: center;
-    margin-top: 0;
-  }
-  .kornish-rex {
-    margin-left: 0;
-    margin-top: 0;
-  }
-  }
+.row-one, .row-two, .row-three, .row-four{
+  flex-wrap: wrap;
+  margin-top: 0;
+}
+footer{
+  flex-wrap: wrap;
+}
+.card{
+  margin-top: 10px;
+}
+
+.row-five{
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+}
+.kornish-rex {
+  margin-left: 0;
+  margin-top: 0;
+}
+.all-breed-columns{
+flex-wrap: wrap;
+}
+
+.viber{
+  flex-wrap: wrap;
+  width: auto;
+  height: auto;
+}
+
+.telegram{
+  flex-wrap: wrap;
+  width: auto;
+  height: auto;
+}
+}
 
 #searchForm{
 padding: 20px;
