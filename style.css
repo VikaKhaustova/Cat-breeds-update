@@ -74,43 +74,6 @@ background-color: #F1F3FF;
 padding: 20px;
 }
 
-@media (max-width: 720px) {
-.row-one, .row-two, .row-three, .row-four{
-  flex-wrap: wrap;
-  margin-top: 0;
-}
-footer{
-  flex-wrap: wrap;
-}
-.card{
-  margin-top: 10px;
-}
-
-.row-five{
-  display: flex;
-  justify-content: center;
-  margin-top: 0;
-}
-.kornish-rex {
-  margin-left: 0;
-  margin-top: 0;
-}
-.all-breed-columns{
-flex-wrap: wrap;
-}
-
-.viber{
-  flex-wrap: wrap;
-  width: auto;
-  height: auto;
-}
-
-.telegram{
-  flex-wrap: wrap;
-  width: auto;
-  height: auto;
-}
-}
 
 #searchForm{
 padding: 20px;
@@ -146,14 +109,16 @@ border: none;
 .Karakal img{
 width: 268px;
 }
-
+.row-five{
+  margin-top: 62px;
+margin-left: 178px;
+}
 
 .kornish-rex {
 display: flex;
 justify-content: flex-start;
-margin-top: 62px;
-margin-left: 178px;
-}
+
+} 
 
 footer {
 background-color: #F1F3FF;
@@ -295,3 +260,50 @@ margin-right: 50px;
 .switch:hover .moon svg {
   animation: tilt 5s linear infinite; 
 }
+
+
+
+@media (max-width: 720px) {
+  .row-one, .row-two, .row-three, .row-four{
+    flex-wrap: wrap;
+    margin-top: 0;
+  } 
+  
+  .card{
+    margin-top: 10px;
+  }
+  
+  .row-five{
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+    margin-top: 0;
+  
+  }
+  .kornish-rex {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  
+  
+  .all-breed-columns{
+  flex-wrap: wrap;
+  }
+  
+  .viber{
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+  }
+  
+  .telegram{
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+  }
+  
+  
+  footer{
+    flex-wrap: wrap;
+  }
+  }
